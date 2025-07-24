@@ -30,18 +30,15 @@ h5py==3.11.0
 idna==3.7
 imbalanced-learn==0.12.3
 joblib==1.4.2
-keras==3.4.1
 kiwisolver==1.4.5
 libclang==18.1.1
 Mako==1.3.10
 Markdown==3.6
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
-matplotlib==3.9.1
 mdurl==0.1.2
 ml-dtypes==0.4.0
 namex==0.0.8
-nltk==3.8.1
 numpy==1.26.4
 opt-einsum==3.3.0
 optree==0.12.1
@@ -78,7 +75,6 @@ sqlmodel==0.0.24
 starlette==0.47.1
 tensorboard==2.17.0
 tensorboard-data-server==0.7.2
-tensorflow==2.17.0
 termcolor==2.4.0
 textstat==0.7.3
 threadpoolctl==3.5.0
