@@ -26,8 +26,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"Welcome to my": "API!!!"}
-
+    return {"Welcome to my Platform": "NEW WORLD!!!"}
 
 # SQLALCHEMY is the most popular python ORM
 
