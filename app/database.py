@@ -14,14 +14,6 @@ SessionLocal = sessionmaker(autocommit= False, autoflush= False, bind= engine)
 
 Base = declarative_base()
 
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
 # while True:
 #     try:
 #         connection = psycopg2.connect(host = 'localhost', database = 'fastapi', 
@@ -34,3 +26,11 @@ def get_db():
 #         print("Conection to database failed")
 #         print("error: ",error)
 #         time.sleep(2)
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+

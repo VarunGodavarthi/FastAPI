@@ -5,8 +5,7 @@ from .database import engine
 from .config import settings
 from fastapi.middleware.cors import CORSMiddleware
 
-
-# models.Base.metadata.create_all(bind=engine) Tolds SQLALCHEMY TO RUN AND CREATE ALL THE TABLE     
+# models.Base.metadata.create_all(bind=engine) #Tolds SQLALCHEMY TO RUN AND CREATE ALL THE TABLE     
 
 app = FastAPI()
 
